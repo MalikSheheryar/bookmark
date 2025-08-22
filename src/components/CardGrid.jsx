@@ -20,8 +20,6 @@ export default function CardGrid() {
   })
 
   return (
-
-    
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pt-10">
       {sections.map((s, index) => {
         const isSelected = index === selected
@@ -31,7 +29,7 @@ export default function CardGrid() {
           <div
             key={index}
             onClick={() => setSelected(index)}
-            className={`w-[260px] h-[330px] relative cursor-pointer transition-all
+            className={`w-[275px] h-[330px] relative cursor-pointer transition-all
               ${
                 isSelected
                   ? 'bg-gradient-to-b from-[#E6FFFF] to-[#FFFFFF] border border-[#4C45F4]'
@@ -39,7 +37,7 @@ export default function CardGrid() {
               }
               rounded-none mx-auto flex items-center justify-center
             `}
-            style={{ boxShadow: '0px 4px 26px rgba(0,0,0,0.06)' }}
+            style={{ boxShadow: '0px 4px 26px rgba(0,0,0,0.08)' }}
           >
             {/* Centered wrapper */}
             <div className="flex flex-col items-start justify-start">
@@ -119,7 +117,7 @@ export default function CardGrid() {
               </div>
 
               {/* Answer blocks */}
-              <div className="flex flex-wrap w-[180px] ">
+              <div className="flex flex-wrap w-[200px] ">
                 {Array.from({ length: s.total }).map((_, i) => (
                   <div
                     key={i}
@@ -133,13 +131,13 @@ export default function CardGrid() {
 
             {/* Indicator */}
             {isSelected && (
-              <div className="absolute -bottom-[44px] left-0 right-0 flex justify-center z-10">
+              <div className="absolute -bottom-[47px] left-0 right-0 flex justify-center z-10">
                 <Image
                   src={triangleIndicator || '/placeholder.svg'}
                   alt="Selected indicator"
                   width={300}
                   height={50}
-                  className="max-w-[266px]"
+                  className="max-w-[280px]"
                 />
               </div>
             )}

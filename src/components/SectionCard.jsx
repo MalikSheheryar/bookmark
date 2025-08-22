@@ -35,14 +35,14 @@ export default function SectionCard() {
         <div className="flex flex-col justify-between">
           {/* Title */}
           <div className="">
-            <div className="text-[#858FDD] text-[18px] font-medium leading-tight">
+            <div className="text-[#858FDD] text-[18px] font-medium leading-tight mb-2">
               {sectionData.title} {sectionData.subtitle}
             </div>
           </div>
 
           {/* RC Circle and Score */}
           <div className="flex items-center gap-3 ">
-            <div className="w-[60px] h-[60px] rounded-full bg-[#E1EFFE] border border-[#0866FF] flex items-center justify-center">
+            <div className="w-[60px] h-[60px] rounded-full bg-[#E1EFFE] border border-[#0866FF] flex items-center justify-center mb-2">
               <span className="text-[#020202] font-normal text-[18px]">RC</span>
             </div>
             <div>
@@ -56,7 +56,7 @@ export default function SectionCard() {
           </div>
 
           {/* Answer blocks - 8 per row */}
-          <div className="flex flex-col gap-[2px]">
+          <div className="flex flex-col gap-[2px] mt-1">
             {Array.from({ length: 3 }).map((_, rowIndex) => (
               <div key={rowIndex} className="flex gap-[2px]">
                 {Array.from({ length: 8 }).map((_, colIndex) => {
@@ -92,7 +92,7 @@ export default function SectionCard() {
         >
           <div className="space-y-8">
             {/* Correct Stats */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-8">
               <div className="flex items-center justify-center gap-1 px-2 py-1 rounded-full border bg-white min-w-[60px]">
                 <Image src={check} alt="Correct" width={20} height={20} />
                 <span className="font-semibold text-sm text-[#6FDC95]">
@@ -112,7 +112,7 @@ export default function SectionCard() {
             </div>
 
             {/* Wrong Stats */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-8">
               <div className="flex items-center justify-center gap-1 px-2 py-1 rounded-full border bg-white min-w-[60px]">
                 <Image src={cross} alt="Wrong" width={20} height={20} />
                 <span className="font-semibold text-sm text-[#EA6F6E]">
@@ -132,7 +132,7 @@ export default function SectionCard() {
             </div>
 
             {/* Skipped Stats */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-8">
               <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border bg-white min-w-[60px]">
                 <div className="w-[20.65px] h-[20.65px] border border-[#787878] rounded-full flex items-center justify-center">
                   <div className="w-2 h-2 bg-[#494949]" />
