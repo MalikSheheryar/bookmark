@@ -17,14 +17,14 @@ export default function ScoreHeader() {
         </div>
 
         {/* Real Mode (aligned with links) */}
-        <div className="text-[#4C45F4] text-[16px] font-normal">
+        <div className="text-[#0866FF] text-[18px] font-regular">
           Real Mode - 4 Sections (Experimental) - 35 Mins
         </div>
       </div>
 
       {/* Row 2: Completed (below Real Mode, right aligned) */}
       <div className="flex justify-end mt-1">
-        <div className="text-[#787878] text-[16px] font-normal">
+        <div className="text-[#787878] text-[14px] font-normal">
           Completed 23 days ago at 3:54pm ET on 4/15/21
         </div>
       </div>

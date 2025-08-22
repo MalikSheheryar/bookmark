@@ -142,7 +142,7 @@ const TestResultsPage = () => {
                   <div className="text-[24px] font-normal text-[#020202] mb-[2px]">
                     LR
                   </div>
-                  <div className="text-[44px] font-normal text-[#020202]">
+                  <div className="text-[64px] font-normal text-[#020202]">
                     -2
                   </div>
                   <div className="text-[13px] font-normal text-[#020202] mt-[4px]">
@@ -183,7 +183,7 @@ const TestResultsPage = () => {
                   <div className="text-[24px] font-normal text-[#020202] mb-[2px]">
                     RC
                   </div>
-                  <div className="text-[44px] font-normal text-[#20589A]">
+                  <div className="text-[64px] font-normal text-[#20589A]">
                     -2
                   </div>
                   <div className="text-[13px] font-normal text-[#20589A] mt-[4px]">
@@ -224,7 +224,7 @@ const TestResultsPage = () => {
                   <div className="text-[24px] font-normal text-[#020202] mb-[2px]">
                     RC
                   </div>
-                  <div className="text-[44px] font-normal text-[#20589A]">
+                  <div className="text-[64px] font-normal text-[#20589A]">
                     -5
                   </div>
                   <div className="text-[13px] font-normal text-[#20589A] mt-[4px]">
@@ -269,7 +269,7 @@ const TestResultsPage = () => {
                       *
                     </span>
                   </div>
-                  <div className="text-[44px] font-normal text-[#020202]">
+                  <div className="text-[64px] font-normal text-[#020202]">
                     -0
                   </div>
                   <div className="text-[13px] font-normal text-[#020202] mt-[4px]">

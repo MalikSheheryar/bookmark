@@ -3,11 +3,11 @@ import ScreenShot from '@/assets/icons/ScreenShot.svg'
 
 export default function Header() {
   return (
-    <div className="flex items-center justify-between mb-10 py-4">
+    <div className="flex items-center justify-between mb-5 pb-12 pt-16">
       {/* Title */}
-      <h1 className="font-semibold text-lg rounded-lg p-2 bg-[#ECEEF1] border border-[#E3E3E3]">
+      <h1 className="font-semibold text-[21px] rounded-lg py-2 px-3 bg-[#ECEEF1] border border-[#E3E3E3]">
         <span className="text-[#0866FF]">PrepTest 139</span>
-        <span className="text-[#5B6170]"> - June 2013.</span>
+        <span className="text-[#606e90]"> - June 2013.</span>
       </h1>
 
       {/* Action Buttons */}
