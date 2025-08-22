@@ -22,10 +22,10 @@ export default function SectionCard() {
 
   return (
     <div
-      className="bg-gradient-to-b from-[#E6FFFF] to-[#FFFFFF] border border-[#4C45F4] py-5 flex justify-center items-center px-10"
+      className="bg-gradient-to-b from-[#E6FFFF] to-[#FFFFFF] border border-[#4C45F4] py-5 flex justify-center items-center px-10 ml-5"
       style={{
-        width: '743px',
-        height: '220px',
+        width: '675px',
+        height: '215px',
         boxShadow: '0px 4px 26px rgba(0,0,0,0.06)',
       }}
     >

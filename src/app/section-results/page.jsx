@@ -34,28 +34,28 @@ const SectionResultsPage = () => {
               {/* First LR Section */}
               <div
                 className="relative w-[225px] h-[225px] flex-shrink-0"
-                style={{ marginLeft: '-85px' }}
+                style={{ marginLeft: '-20px' }}
               >
                 <svg
                   className="w-full h-full transform -rotate-90"
-                  viewBox="0 0 170 170"
+                  viewBox="0 0 223 223"
                 >
                   <circle
-                    cx="85"
-                    cy="85"
-                    r="65"
+                    cx="111.5"
+                    cy="111.5"
+                    r="100"
                     stroke="#DDF4FF"
-                    strokeWidth="12"
+                    strokeWidth="15"
                     fill="none"
                   />
                   <circle
-                    cx="85"
-                    cy="85"
-                    r="65"
+                    cx="111.5"
+                    cy="111.5"
+                    r="100"
                     stroke="#0866FF"
-                    strokeWidth="12"
+                    strokeWidth="15"
                     fill="none"
-                    strokeDasharray="330 440"
+                    strokeDasharray="471 628"
                     strokeLinecap="round"
                   />
                 </svg>
@@ -75,28 +75,28 @@ const SectionResultsPage = () => {
               {/* Second LR Section */}
               <div
                 className="relative w-[225px] h-[225px] flex-shrink-0"
-                style={{ marginLeft: '-25px' }}
+                style={{ marginLeft: '5px' }}
               >
                 <svg
                   className="w-full h-full transform -rotate-90"
-                  viewBox="0 0 170 170"
+                  viewBox="0 0 223 223"
                 >
                   <circle
-                    cx="85"
-                    cy="85"
-                    r="65"
+                    cx="111.5"
+                    cy="111.5"
+                    r="100"
                     stroke="#DDF4FF"
-                    strokeWidth="12"
+                    strokeWidth="15"
                     fill="none"
                   />
                   <circle
-                    cx="85"
-                    cy="85"
-                    r="65"
+                    cx="111.5"
+                    cy="111.5"
+                    r="100"
                     stroke="#0866FF"
-                    strokeWidth="12"
+                    strokeWidth="15"
                     fill="none"
-                    strokeDasharray="330 440"
+                    strokeDasharray="471 628"
                     strokeLinecap="round"
                   />
                 </svg>
